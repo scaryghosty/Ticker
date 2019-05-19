@@ -154,9 +154,9 @@ def main():
             firstnet_flag = 1
             clear_screen()
             width = get_terminal_width()
+
             # Build and print game summaries
 
-            
             if REFRESH_TIME > 0:
                 print(Style.BRIGHT + Fore.RED + '\n' + 'Press Q to quit\n'.center(width))
 
